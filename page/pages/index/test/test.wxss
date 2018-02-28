@@ -1,0 +1,8 @@
+.detail-conrainer{
+  background: #fff;
+  padding: 0 15px;
+}
+.detail-article{
+  font-size: 14px;
+  padding:10px 0;
+}

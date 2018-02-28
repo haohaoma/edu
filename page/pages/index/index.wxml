@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    indicator-color="#ccc"
+    indicator-active-color="#fff">
+    <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="nav-bar">
+    <view wx:for="{{iconSize}}" wx:key="{{item}}" class="nav-item">
+      <navigator
+        class="nav-text"
+        hover-class="navigator-hover"
+        url="test/test"
+      >
+        <view>
+          <icon type="success" size="20"/>
+        </view>
+        <text>{{item}}</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="nav-bar secend">
+    <view class="text">
+      testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+    </view>
+    <view class="spacer"></view>
+    <contact-button 
+      session-from="weapp"
+      class="icon-color"
+    >
+    </contact-button>
+    <navigator url="map/map">
+      <text class="fa fa-location-arrow map-botton icon-color"></text>
+    </navigator>
+    <text class="fa fa-phone icon-color" bindtap="call"></text>
+  </view>
+</view>

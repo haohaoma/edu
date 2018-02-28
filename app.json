@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "page/pages/index/index",
+    "page/pages/logs/logs",
+    "page/pages/index/test/test",
+    "page/pages/index/map/map"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "page/pages/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "page/pages/logs/logs",
+        "text": "logs"
+      }
+    ]
+  }
+}

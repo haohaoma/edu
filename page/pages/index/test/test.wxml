@@ -1,0 +1,8 @@
+<view class="detail-conrainer">
+  <view>
+    <text class="detail-title">标题</text>
+  </view>
+  <view class="detail-article">
+    decode可以解析的有各个操作系统的空格标准并不一致。<text/> 组件内只支持 <text/> 嵌套。除了文本节点以外的其他节点都无法长按选中。
+  </view>
+</view>
