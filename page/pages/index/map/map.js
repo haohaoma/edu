@@ -1,29 +1,11 @@
 Page({
-  data: {
-    markers: [{
-      // iconPath: "/resources/others.png",
-      id: 0,
-      latitude: 23.099994,
-      longitude: 113.324520,
-      width: 50,
-      height: 50,
-      callout: {
-        content: 'testtesttesttesttest',
-        color: 'black',
-        bgColor: 'white',
-        padding: 15,
-        display: "ALWAYS",
-        borderRadius: 3
-      }
-    }]
-  },
-  regionchange(e) {
-    console.log(e.type)
-  },
-  markertap(e) {
-    console.log(e)
-  },
-  controltap(e) {
-    console.log(e.controlId)
+  onLoad () {
+    wx.openLocation({
+      latitude: 23.362490,
+      longitude: 116.715790,
+      scale: 18,
+      name: '华乾大厦',
+      address: '金平区长平路93号'
+    })  
   }
 })

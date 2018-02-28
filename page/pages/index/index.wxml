@@ -6,6 +6,7 @@
     interval="{{interval}}"
     duration="{{duration}}"
     indicator-color="#ccc"
+    circular
     indicator-active-color="#fff">
     <block wx:for="{{imgUrls}}" wx:key="{{item}}">
       <swiper-item>
