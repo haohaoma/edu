@@ -42,16 +42,16 @@ Page({
         query: 'ldzc'
       },
       {
-        text: '作品档案',
-        icon: 'fa fa-address-card-o',
-        color: 'seven',
-        query: 'zpda'
-      },
-      {
         text: '师资列表',
         icon: 'fa fa-users',
         color: 'eight',
         query: 'szlb'
+      },
+      {
+        text: '家长须知',
+        icon: 'fa fa-address-card-o',
+        color: 'seven',
+        query: 'zpda'
       }
     ],
     indicatorDots: true,

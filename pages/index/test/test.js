@@ -72,12 +72,19 @@ Page({
         ]
       },
       zpda: {
-        title: '作品档案',
+        title: '家长须知',
         list: []
       },
       szlb: {
         title: '师资列表',
-        list: []
+        list: [
+          {
+            title: 'Horace',
+            subTitle: '灵感研究院院长',
+            content: 'Horace院长中国农工党党员希望美术教育联合创始人北京希望师资学院院长',
+            image: '../../../assets/images/sjl.jpg'
+          }
+        ]
       }
     },
     current: {}

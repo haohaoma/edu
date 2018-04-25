@@ -1,11 +1,31 @@
 <view class="detail-conrainer">
-  <view>
-    <text class="detail-title">{{current.title}}</text>
+  <view class="detail-title">
+    <text>{{current.title}}</text>
   </view>
-  <view class="detail-article">
+  <view wx:if="{{current.content}}" class="detail-article">
     <view wx:for="{{current.content}}" wx:key="{{item}}">
       <text wx:if="{{item.text}}" class="{{item.class}}">{{item.text}}</text>
       <image wx:if="{{item.image}}" class="{{item.class}}" src="{{item.image}}">{{item.image}}</image>
+    </view>
+  </view>
+  <view wx:else class="list-container">
+    <view class="list" wx:for="{{current.list}}" wx:key="{{item}}">
+      <view class="list-image">
+        <image mode="widthFix" src="{{item.image}}"></image>
+      </view>
+      <view class="list-text">
+        <view>
+          <view>
+            <text class="title">{{item.title}}</text>
+          </view>
+          <view>
+            <text class="sub-title">{{item.subTitle}}</text>
+          </view>
+        </view>
+        <view>
+          <text class="content">{{item.content}}</text>
+        </view>
+      </view>
     </view>
   </view>
 </view>

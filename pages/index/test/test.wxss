@@ -1,13 +1,15 @@
 .detail-conrainer{
   background: #fff;
-  padding: 0 15px;
 }
 .detail-title{
   font-size: 20px;
+  padding-bottom: 10px;
+  background: #fff;
+  padding: 0 15px;
 }
 .detail-article{
   font-size: 14px;
-  padding:10px 0;
+  padding:10px 15px;
 }
 .detail-article image{
   width: 100%;
@@ -21,4 +23,38 @@
 .blue{
   font-size: 20px;
   color: #5BC0E6;
+}
+
+.list-container{
+  background: #f8f8f8;
+  padding-top: 20px;
+}
+
+.list-container .list{
+  display: flex;
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.list-image{
+  flex-basis: 370px;
+  margin-right: 20px;
+}
+.list-image image{
+  width: 100%;
+}
+.list-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-text .title{
+  font-size: 16px;
+}
+.list-text .sub-title{
+  font-size: 12px;
+}
+.list-text .content{
+  font-size: 12px;
 }
