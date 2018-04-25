@@ -1,0 +1,24 @@
+.detail-conrainer{
+  background: #fff;
+  padding: 0 15px;
+}
+.detail-title{
+  font-size: 20px;
+}
+.detail-article{
+  font-size: 14px;
+  padding:10px 0;
+}
+.detail-article image{
+  width: 100%;
+}
+.detail-article image.kctx{
+  height: 666px;
+}
+.detail-article view{
+  padding-bottom: 15px;
+}
+.blue{
+  font-size: 20px;
+  color: #5BC0E6;
+}

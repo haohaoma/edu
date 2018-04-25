@@ -1,0 +1,11 @@
+<view class="detail-conrainer">
+  <view>
+    <text class="detail-title">{{current.title}}</text>
+  </view>
+  <view class="detail-article">
+    <view wx:for="{{current.content}}" wx:key="{{item}}">
+      <text wx:if="{{item.text}}" class="{{item.class}}">{{item.text}}</text>
+      <image wx:if="{{item.image}}" class="{{item.class}}" src="{{item.image}}">{{item.image}}</image>
+    </view>
+  </view>
+</view>
