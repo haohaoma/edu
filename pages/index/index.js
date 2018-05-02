@@ -112,7 +112,7 @@ Page({
   },
   call: function () {
     wx.makePhoneCall({
-      phoneNumber: '18613842966'
+      phoneNumber: '18531628845'
     })
   },
   openLocation: function () {
