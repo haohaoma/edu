@@ -1,5 +1,32 @@
 Page({
   data: {
+    list:[
+      {
+        title: '林中的小鸟',
+        image: '../../assets/images/zuopin/xiaoniao.jpg',
+        query: 'xiaoniao'
+      },
+      {
+        title: '玩偶小熊',
+        image: '../../assets/images/zuopin/xiaoxiong.jpg',
+        query: 'xiaoxiong'
+      },
+      {
+        title: '鹰',
+        image: '../../assets/images/zuopin/ying.jpg',
+        query: 'ying'
+      },
+      {
+        title: '巨嘴鸟',
+        image: '../../assets/images/zuopin/jzn.jpg',
+        query: 'jzn'
+      },
+      {
+        title: '百合',
+        image: '../../assets/images/zuopin/baihe.jpg',
+        query: 'baihe'
+      }
+    ],
     imgUrls: [
       '../../assets/images/banner1.jpg',
       '../../assets/images/banner2.jpg',
@@ -90,11 +117,11 @@ Page({
   },
   openLocation: function () {
     wx.openLocation({
-      latitude: 23.362490,
-      longitude: 116.715790,
+      latitude: 39.4363670099,
+      longitude: 116.3098096848,
       scale: 18,
-      name: '华乾大厦',
-      address: '金平区长平路93号'
+      name: '希望美术教育固安校区',
+      address: '固安县惠文东街京南绿洲底商129号希望美术教育'
     })  
   }
 })

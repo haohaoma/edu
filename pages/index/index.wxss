@@ -123,3 +123,26 @@
 .third-text{
   font-size: 14px;
 }
+
+.list-container{
+  flex:1;
+}
+
+.list-container .list{
+  background: #fff;
+  margin-bottom: 20px;
+}
+.list-title{
+  margin-bottom: 20px;
+}
+.list-image{
+  width: 100%;
+}
+.list-image image{
+  width: 100%;
+}
+.list-text{
+}
+.list-text .title{
+  font-size: 16px;
+}

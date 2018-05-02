@@ -51,4 +51,23 @@
       <text>全国少儿美术教育领军品牌，您身边贴心的少儿美术教育专家</text>
     </view>
   </view>
+  <view class="nav-bar">
+    <view class="list-container">
+      <view class='list-title'>
+        <text>作品档案</text>
+      </view>
+      <view class="list" wx:for="{{list}}" wx:key="{{item}}">
+        <navigator
+          url="test/test?q={{item.query}}"
+        >
+          <view class="list-image">
+            <image src="{{item.image}}"></image>
+          </view>
+          <view class="list-text">
+             <text class="title">{{item.title}}</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
 </view>

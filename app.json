@@ -1,13 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/index/test/test"
+    "pages/index/test/test",
+    "pages/index/teacher/teacher"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "希望美术教育固安校区",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
